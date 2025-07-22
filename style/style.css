@@ -60,7 +60,8 @@
   border-radius: 10px;
 }
 .banner-container-left {
-  max-width: 60%;
+  max-width: 582px;
+  text-align: left;
 }
 .banner-container-left h2 {
   font-size: 52px;
@@ -245,6 +246,9 @@ img {
   .banner-container {
     flex-direction: column-reverse;
     margin: 10px;
+  }
+  .banner-container-left {
+    text-align: center;
   }
   .sponsor-content {
     display: grid;
