@@ -190,7 +190,7 @@ img {
   margin: 100px 0 50px 0;
 }
 .featured-img {
-  width: 460px;
+  max-width: 460px;
   height: 350px;
 }
 .content {
