@@ -28,7 +28,7 @@
   gap: 15px;
 }
 .navbar {
-  background-color: aquamarine;
+  margin: 50px auto;
   justify-content: space-between;
   align-items: center;
 }
@@ -113,7 +113,8 @@ img {
 }
 /* Popular Collection */
 .collection {
-  margin: 30px 0;
+  margin: 0 auto;
+  max-width: 1047px;
 }
 .collection .more {
   margin: 20px 0;
@@ -126,6 +127,7 @@ img {
   font-weight: 600;
   line-height: 70px;
   color: rgb(58, 58, 58);
+  margin: 16px 0;
 }
 .collection-card-container {
   display: grid;
@@ -180,8 +182,64 @@ img {
   border: none;
   text-align: center;
 }
+/* Featured products */
+.featured {
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 0 50px 0;
+}
+.featured-img {
+  width: 500px;
+  height: 350px;
+}
+.content {
+  max-width: 610px;
+  padding: 20px;
+}
+.content h2 {
+  color: rgb(10, 8, 38);
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.content p {
+  color: rgb(108, 108, 108);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+.btn-2 {
+  background: rgb(224, 44, 109);
+  color: white;
+  font-size: 24px;
+  padding: 10px 24px;
+  border: none;
+  margin: 15px 0;
+}
+/* footer section */
+.footer-container {
+  background-color: rgb(10, 8, 38);
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+}
+.icons {
+  justify-content: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+.icon-footer {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.418);
+  align-content: center;
+  margin-bottom: 50px;
+}
 @media screen and (max-width: 576px) {
-  .navbar {
+  .navbar,
+  .featured {
     flex-direction: column;
   }
   .banner-container {
